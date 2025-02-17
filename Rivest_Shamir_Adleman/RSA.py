@@ -84,7 +84,7 @@ if a and b:
         cipher_text = encryption(plaintext)
         print("cipher text : ", cipher_text)
 
-        # Decryption function
+        
         def decryption(cipher_text):
             return (cipher_text ** int(d)) % n
 
