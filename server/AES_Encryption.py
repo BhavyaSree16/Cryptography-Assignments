@@ -14,10 +14,10 @@ def aes_decrypt(nonce, ciphertext, tag):
         return plaintext.decode('ascii')
     except:
         return False 
-nonce, ciphertext, tag = aes_encrypt(input("Enter a message: "))
-plaintext = aes_decrypt(nonce, ciphertext, tag)
-print(f'Cipher text: {ciphertext}\n , tag : {tag}\n , nounce : {nonce}\n')
-if not plaintext:
-    print("Message is corrupted")
-else:
-    print(f'Plain text: {plaintext}')
+# nonce, ciphertext, tag = aes_encrypt(input("Enter a message: "))
+# plaintext = aes_decrypt(nonce, ciphertext, tag)
+# print(f'Cipher text: {ciphertext}\n , tag : {tag}\n , nounce : {nonce}\n')
+# if not plaintext:
+#     print("Message is corrupted")
+# else:
+#     print(f'Plain text: {plaintext}')

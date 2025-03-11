@@ -14,7 +14,6 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         font-family: Arial, sans-serif;
         background-color: #cdffb2;
-        
       }
       select {
         padding: 5px;
@@ -36,7 +35,7 @@
         width: 120px;
         border-radius: 8px;
         border: none;
-        background-color: #4CAF50;
+        background-color: #4caf50;
         color: white;
         font-weight: bold;
         cursor: pointer;
@@ -53,14 +52,13 @@
       }
     </style>
   </head>
-  <body
-  style="display: flex; flex-direction:column; justify-content:center;"
-  >
+  <body style="display: flex; flex-direction: column; justify-content: center">
     <div class="container-1">
       <div>
         <select name="cipher" id="cipher">
           <option value="vigenere">Vigenere Cipher</option>
           <option value="playfair">Playfair Cipher</option>
+          <option value="diffie-hellman">Diffie Hellman</option>
         </select>
       </div>
       <input
@@ -84,7 +82,5 @@
       <div class="result" id="output"></div>
     </div>
   </body>
-  <script src="script.js"> 
-
-  </script>
+  <script src="script.js"></script>
 </html>
