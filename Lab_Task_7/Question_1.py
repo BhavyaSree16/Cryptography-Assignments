@@ -28,4 +28,4 @@ private_key_a = generate_private_key()
 private_key_b = generate_private_key()
 
 shared_secret = key_exchange(private_key_a, private_key_b, generator)
-print(f"Shared Secret: {shared_secret.x()}")  # Print only the x-coordinate
+print(f"Shared Secret: {shared_secret.x()}")  # Print only the x-coordinate 
